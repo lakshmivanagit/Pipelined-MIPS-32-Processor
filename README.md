@@ -30,12 +30,14 @@ The project is tested using a **Verilog testbench**, initializing registers, loa
 
 #### ✅ Example Instruction Execution:
 ```verilog
-mips.Mem[0] = 32'h2801000a; // ADDI R1, R0, 10
-mips.Mem[1] = 32'h28020014; // ADDI R2, R0, 20
-mips.Mem[2] = 32'h00222000; // ADD R4, R1, R2
-mips.Mem[3] = 32'hfc000000; // HALT
+mips.Mem[0]=32'h2801000a; // ADDI R1, R0, 10
+mips.Mem[1]=32'h28020014; // ADDI R2, R0, 20
+mips.Mem[2]=32'h28030019; // ADDI R3, R0, 25
+mips.Mem[5]=32'h00222000; // ADD R4, R1, R2
+mips.Mem[7]=32'h00832800; // ADD R5, R4, R3
+mips.Mem[8]=32'hfc000000; // HALT
+
 ```
 ## 📢 Contribute
 Feel free to fork this repository, report issues, or suggest improvements! 
-📌 **Connect with me on LinkedIn:** www.linkedin.com/in/
-lakshmi-vana-b6378a2ba
+📌 **Connect with me on LinkedIn:** www.linkedin.com/in/lakshmi-vana-b6378a2ba
