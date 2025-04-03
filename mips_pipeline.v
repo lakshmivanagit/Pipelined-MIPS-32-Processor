@@ -5,7 +5,7 @@
 // 
 // Create Date: 25.03.2025 19:07:51
 // Design Name: 
-// Module Name: risc_mips32
+// Module Name: pipe_MIPS32
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
