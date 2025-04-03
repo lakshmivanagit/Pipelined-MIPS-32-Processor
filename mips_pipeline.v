@@ -1,11 +1,11 @@
-timescale 1ns / 1ps
+`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
 // 
 // Create Date: 25.03.2025 19:07:51
 // Design Name: 
-// Module Name: pipe_MIPS32
+// Module Name: risc_mips32
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
