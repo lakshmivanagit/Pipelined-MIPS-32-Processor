@@ -3,7 +3,7 @@
 ## 🚀 Overview
 This project implements a **5-stage pipelined MIPS-32 processor** in Verilog, simulating instruction execution with a testbench. The design optimizes instruction execution by leveraging **instruction-level parallelism**.
 
-## 📌 Pipeline Stages
+## 📌 Pipeline Stages(5) 
 1️⃣ **Instruction Fetch (IF)** – Fetches the instruction from memory.  
 2️⃣ **Instruction Decode (ID)** – Decodes the opcode and reads registers.  
 3️⃣ **Execute (EX)** – Performs ALU operations.  
